@@ -1,0 +1,55 @@
+h1 {
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#meme_textTop {
+  background-color: transparent;
+  font-size: 40px;
+  font-family: "Impact";
+  color: white;
+  text-shadow: black 0px 0px 10px;
+  width: 500px;
+  position: absolute;
+  text-align: center;
+  left: 15px;
+  top: 400px;
+}
+
+#meme_textBottom {
+  background-color: transparent;
+  font-size: 40px;
+  font-family: "Impact";
+  color: white;
+  text-shadow: black 0px 0px 10px;
+  width: 500px;
+  position: absolute;
+  text-align: center;
+  left: 15px;
+  top: 800px;
+}
+
+.test {
+  background-color: transparent;
+  font-size: 40px;
+  font-family: "Impact";
+  color: white;
+  text-shadow: black 0px 0px 10px;
+  width: 500px;
+  position: absolute;
+  text-align: center;
+  left: 15px;
+  top: 800px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}

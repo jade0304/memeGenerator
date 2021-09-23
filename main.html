@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Your MEME Generator</h1>
+<h2>Fill out the form to start creating memes!</h2>
+
+  <!-- <label for="topText">Text on top</label>
+  <input type="text" id="topText" name="topText" value=""><br>
+
+  <label for="bottomText">Text on bottom</label>
+  <input type="text" id="bottomText" name="bottomText" value=""><br> -->
+
+<div id="urlOrUpload">
+    <label for="imgURL">URL</label>
+    <input type="text" id="imageUrl"/>
+    <br> 
+    <input type="file" accetp="image/*"/>
+  </div>
+<div>
+  Meme Top Text: <input type="text" id="topText">
+</div>
+<div>
+  Meme Bottom Text: <input type="text" id="bottomText">
+</div>
+  <div id="buttonHolder">
+    <button type="button" id="button" onclick="uploadOrNot()">Add Meme</button>
+  </div>
+  <div id="result">
+  <div id="meme_textTop"></div>
+  <div id="meme_textBottom"></div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
